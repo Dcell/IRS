@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60F2B012230F01A00F63E11 /* resign.sh in Resources */ = {isa = PBXBuildFile; fileRef = B60F2B002230F01A00F63E11 /* resign.sh */; };
+		B60F2B032230F3E700F63E11 /* ResignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60F2B022230F3E700F63E11 /* ResignViewController.swift */; };
+		B60F2B042230FDD800F63E11 /* IRSProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BC8679222FB5D400F13836 /* IRSProcess.framework */; };
+		B60F2B052230FDD800F63E11 /* IRSProcess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6BC8679222FB5D400F13836 /* IRSProcess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6351E2322314115006CFBE1 /* IConBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6351E2222314115006CFBE1 /* IConBox.swift */; };
+		B6351E252231412F006CFBE1 /* LaunchImageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6351E242231412F006CFBE1 /* LaunchImageBox.swift */; };
+		B6351E2722314141006CFBE1 /* AssetsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6351E2622314141006CFBE1 /* AssetsBox.swift */; };
+		B6351E2922314174006CFBE1 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6351E2822314174006CFBE1 /* CustomViewController.swift */; };
+		B6A6C0582230083A00ACD509 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6C0572230083A00ACD509 /* MainView.swift */; };
+		B6BC864B222FB5B700F13836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BC864A222FB5B700F13836 /* AppDelegate.swift */; };
+		B6BC864D222FB5B700F13836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BC864C222FB5B700F13836 /* ViewController.swift */; };
+		B6BC864F222FB5B800F13836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BC864E222FB5B800F13836 /* Assets.xcassets */; };
+		B6BC8652222FB5B800F13836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BC8650222FB5B800F13836 /* Main.storyboard */; };
+		B6BC8683222FB64B00F13836 /* IRSSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BC867B222FB5D400F13836 /* IRSSecurity.framework */; };
+		B6BC8684222FB64B00F13836 /* IRSSecurity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6BC867B222FB5D400F13836 /* IRSSecurity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6F9F3042234B3CA00997A52 /* CustomInfoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9F3032234B3CA00997A52 /* CustomInfoModule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60F2B062230FDD800F63E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "IRS::IRSProcess";
+			remoteInfo = IRSProcess;
+		};
+		B6BC8672222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Yams::CYaml::Product";
+			remoteInfo = CYaml;
+		};
+		B6BC8674222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "CommandLine::CommandLineKit::Product";
+			remoteInfo = CommandLineKit;
+		};
+		B6BC8676222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "IRS::IRS::Product";
+			remoteInfo = IRS;
+		};
+		B6BC8678222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "IRS::IRSProcess::Product";
+			remoteInfo = IRSProcess;
+		};
+		B6BC867A222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "IRS::IRSSecurity::Product";
+			remoteInfo = IRSSecurity;
+		};
+		B6BC867C222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "IRS::IRS_GUI::Product";
+			remoteInfo = IRS_GUI;
+		};
+		B6BC867E222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Rainbow::Rainbow::Product";
+			remoteInfo = Rainbow;
+		};
+		B6BC8680222FB5D400F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Yams::Yams::Product";
+			remoteInfo = Yams;
+		};
+		B6BC8685222FB64B00F13836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "IRS::IRSSecurity";
+			remoteInfo = IRSSecurity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6BC8687222FB64B00F13836 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6BC8684222FB64B00F13836 /* IRSSecurity.framework in Embed Frameworks */,
+				B60F2B052230FDD800F63E11 /* IRSProcess.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B60F2B002230F01A00F63E11 /* resign.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = resign.sh; path = IRS_GUI/resign.sh; sourceTree = "<group>"; };
+		B60F2B022230F3E700F63E11 /* ResignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResignViewController.swift; sourceTree = "<group>"; };
+		B6351E2222314115006CFBE1 /* IConBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IConBox.swift; sourceTree = "<group>"; };
+		B6351E242231412F006CFBE1 /* LaunchImageBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchImageBox.swift; sourceTree = "<group>"; };
+		B6351E2622314141006CFBE1 /* AssetsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsBox.swift; sourceTree = "<group>"; };
+		B6351E2822314174006CFBE1 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		B6A6C0572230083A00ACD509 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B6BC8647222FB5B700F13836 /* IRS_GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRS_GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BC864A222FB5B700F13836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6BC864C222FB5B700F13836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6BC864E222FB5B800F13836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6BC8651222FB5B800F13836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6BC8653222FB5B800F13836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BC8654222FB5B800F13836 /* IRS_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IRS_GUI.entitlements; sourceTree = "<group>"; };
+		B6BC865A222FB5D400F13836 /* IRS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRS.xcodeproj; path = ../../IRS.xcodeproj; sourceTree = "<group>"; };
+		B6F9F3032234B3CA00997A52 /* CustomInfoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoModule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BC8644222FB5B700F13836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BC8683222FB64B00F13836 /* IRSSecurity.framework in Frameworks */,
+				B60F2B042230FDD800F63E11 /* IRSProcess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6351E21223140F2006CFBE1 /* CustomInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B6351E2222314115006CFBE1 /* IConBox.swift */,
+				B6351E242231412F006CFBE1 /* LaunchImageBox.swift */,
+				B6351E2622314141006CFBE1 /* AssetsBox.swift */,
+				B6351E2822314174006CFBE1 /* CustomViewController.swift */,
+				B6F9F3032234B3CA00997A52 /* CustomInfoModule.swift */,
+			);
+			path = CustomInfo;
+			sourceTree = "<group>";
+		};
+		B6BC863E222FB5B700F13836 = {
+			isa = PBXGroup;
+			children = (
+				B6BC865A222FB5D400F13836 /* IRS.xcodeproj */,
+				B6BC8649222FB5B700F13836 /* IRS_GUI */,
+				B6BC8648222FB5B700F13836 /* Products */,
+				B60F2B002230F01A00F63E11 /* resign.sh */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BC8648222FB5B700F13836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BC8647222FB5B700F13836 /* IRS_GUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BC8649222FB5B700F13836 /* IRS_GUI */ = {
+			isa = PBXGroup;
+			children = (
+				B6351E21223140F2006CFBE1 /* CustomInfo */,
+				B6BC864A222FB5B700F13836 /* AppDelegate.swift */,
+				B6BC864C222FB5B700F13836 /* ViewController.swift */,
+				B6BC864E222FB5B800F13836 /* Assets.xcassets */,
+				B6BC8650222FB5B800F13836 /* Main.storyboard */,
+				B6BC8653222FB5B800F13836 /* Info.plist */,
+				B6BC8654222FB5B800F13836 /* IRS_GUI.entitlements */,
+				B6A6C0572230083A00ACD509 /* MainView.swift */,
+				B60F2B022230F3E700F63E11 /* ResignViewController.swift */,
+			);
+			path = IRS_GUI;
+			sourceTree = "<group>";
+		};
+		B6BC865B222FB5D400F13836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BC8673222FB5D400F13836 /* CYaml.framework */,
+				B6BC8675222FB5D400F13836 /* CommandLineKit.framework */,
+				B6BC8677222FB5D400F13836 /* IRS */,
+				B6BC8679222FB5D400F13836 /* IRSProcess.framework */,
+				B6BC867B222FB5D400F13836 /* IRSSecurity.framework */,
+				B6BC867D222FB5D400F13836 /* IRS_GUI.framework */,
+				B6BC867F222FB5D400F13836 /* Rainbow.framework */,
+				B6BC8681222FB5D400F13836 /* Yams.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BC8646222FB5B700F13836 /* IRS_GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BC8657222FB5B800F13836 /* Build configuration list for PBXNativeTarget "IRS_GUI" */;
+			buildPhases = (
+				B6BC8643222FB5B700F13836 /* Sources */,
+				B6BC8644222FB5B700F13836 /* Frameworks */,
+				B6BC8645222FB5B700F13836 /* Resources */,
+				B6BC8687222FB64B00F13836 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BC8686222FB64B00F13836 /* PBXTargetDependency */,
+				B60F2B072230FDD800F63E11 /* PBXTargetDependency */,
+			);
+			name = IRS_GUI;
+			productName = IRS_GUI;
+			productReference = B6BC8647222FB5B700F13836 /* IRS_GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BC863F222FB5B700F13836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ding_qili;
+				TargetAttributes = {
+					B6BC8646222FB5B700F13836 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B6BC8642222FB5B700F13836 /* Build configuration list for PBXProject "IRS_GUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6BC863E222FB5B700F13836;
+			productRefGroup = B6BC8648222FB5B700F13836 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B6BC865B222FB5D400F13836 /* Products */;
+					ProjectRef = B6BC865A222FB5D400F13836 /* IRS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B6BC8646222FB5B700F13836 /* IRS_GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B6BC8673222FB5D400F13836 /* CYaml.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CYaml.framework;
+			remoteRef = B6BC8672222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC8675222FB5D400F13836 /* CommandLineKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CommandLineKit.framework;
+			remoteRef = B6BC8674222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC8677222FB5D400F13836 /* IRS */ = {
+			isa = PBXReferenceProxy;
+			fileType = text;
+			path = IRS;
+			remoteRef = B6BC8676222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC8679222FB5D400F13836 /* IRSProcess.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRSProcess.framework;
+			remoteRef = B6BC8678222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC867B222FB5D400F13836 /* IRSSecurity.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRSSecurity.framework;
+			remoteRef = B6BC867A222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC867D222FB5D400F13836 /* IRS_GUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IRS_GUI.framework;
+			remoteRef = B6BC867C222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC867F222FB5D400F13836 /* Rainbow.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Rainbow.framework;
+			remoteRef = B6BC867E222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6BC8681222FB5D400F13836 /* Yams.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Yams.framework;
+			remoteRef = B6BC8680222FB5D400F13836 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BC8645222FB5B700F13836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BC864F222FB5B800F13836 /* Assets.xcassets in Resources */,
+				B60F2B012230F01A00F63E11 /* resign.sh in Resources */,
+				B6BC8652222FB5B800F13836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BC8643222FB5B700F13836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60F2B032230F3E700F63E11 /* ResignViewController.swift in Sources */,
+				B6BC864D222FB5B700F13836 /* ViewController.swift in Sources */,
+				B6351E252231412F006CFBE1 /* LaunchImageBox.swift in Sources */,
+				B6351E2322314115006CFBE1 /* IConBox.swift in Sources */,
+				B6F9F3042234B3CA00997A52 /* CustomInfoModule.swift in Sources */,
+				B6A6C0582230083A00ACD509 /* MainView.swift in Sources */,
+				B6351E2722314141006CFBE1 /* AssetsBox.swift in Sources */,
+				B6BC864B222FB5B700F13836 /* AppDelegate.swift in Sources */,
+				B6351E2922314174006CFBE1 /* CustomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60F2B072230FDD800F63E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRSProcess;
+			targetProxy = B60F2B062230FDD800F63E11 /* PBXContainerItemProxy */;
+		};
+		B6BC8686222FB64B00F13836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRSSecurity;
+			targetProxy = B6BC8685222FB64B00F13836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6BC8650222FB5B800F13836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BC8651222FB5B800F13836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6BC8655222FB5B800F13836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6BC8656222FB5B800F13836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6BC8658222FB5B800F13836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IRS_GUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuatech.IRS-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B6BC8659222FB5B800F13836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IRS_GUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuatech.IRS-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BC8642222FB5B700F13836 /* Build configuration list for PBXProject "IRS_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BC8655222FB5B800F13836 /* Debug */,
+				B6BC8656222FB5B800F13836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BC8657222FB5B800F13836 /* Build configuration list for PBXNativeTarget "IRS_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BC8658222FB5B800F13836 /* Debug */,
+				B6BC8659222FB5B800F13836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BC863F222FB5B700F13836 /* Project object */;
+}
