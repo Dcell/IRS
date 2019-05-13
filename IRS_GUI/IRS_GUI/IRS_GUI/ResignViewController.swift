@@ -57,6 +57,7 @@ class ResignViewController: NSViewController {
     
     func reCodeSign() -> Bool{
         if let shPath =  Bundle.main.path(forResource: "resign", ofType: ".sh"){
+            self.chmodx()
             var arguments:[String] = [shPath,srcIpaPath,cerName,
                                       "-v",
                                       "-p",proFilePath,
@@ -87,6 +88,14 @@ class ResignViewController: NSViewController {
             return outPut == 0
         }
         return false
+    }
+    
+    func chmodx(){
+        if let shPath =  Bundle.main.path(forResource: "resign", ofType: ".sh"){
+            let arguments:[String] = ["chmod","+x",shPath]
+            let process:Process = Process()
+            process.exe("/bin/bash", arguments: arguments)
+        }
     }
     
     override func viewWillDisappear() {
