@@ -277,6 +277,8 @@ if [[ "${#RAW_PROVISIONS[*]}" == "0" ]]; then
 fi
 
 # Check for and remove the temporary directory if it already exists
+TEMP_DIR=${NEW_FILE%/*}\/${TEMP_DIR}
+
 if [ -d "$TEMP_DIR" ]; then
     log "Removing previous temporary directory: '$TEMP_DIR'"
     rm -Rf "$TEMP_DIR"
