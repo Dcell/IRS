@@ -883,7 +883,7 @@ log "Repackaging as $NEW_FILE"
 pushd "$TEMP_DIR" > /dev/null
 # TODO: Fix shellcheck warning and remove directive
 # shellcheck disable=SC2035
-zip -qry "../$TEMP_DIR.ipa" *
+zip -qry "$TEMP_DIR.ipa" *
 popd > /dev/null
 
 # Move the resulting ipa to the target destination
